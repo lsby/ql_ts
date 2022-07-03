@@ -1,6 +1,6 @@
 {
   "name": "@lsby/ql_ts",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "项目模板",
   "bin": {
     "lsby_ql_ts": "bin/index.js"
@@ -40,6 +40,7 @@
   },
   "homepage": "https://github.com/lsby/ql_ts#readme",
   "dependencies": {
-    "@lsby/exec_cmd": "^0.0.11"
+    "@lsby/exec_cmd": "^0.0.11",
+    "download": "^8.0.0"
   }
 }
