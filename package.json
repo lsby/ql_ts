@@ -1,0 +1,45 @@
+{
+  "name": "@lsby/ql_ts",
+  "version": "0.0.1",
+  "description": "项目模板",
+  "bin": {
+    "lsby_ql_ts": "bin/index.js"
+  },
+  "files": [
+    "/",
+    "!.*.swp",
+    "!._*",
+    "!.DS_Store",
+    "!.git",
+    "!.hg",
+    "!.npmrc",
+    "!.lock-wscript",
+    "!.svn",
+    "!.wafpickle-*",
+    "!config.gypi",
+    "!CVS",
+    "!npm-debug.log"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "pub": "npm publish --access=public"
+  },
+  "author": "",
+  "license": "ISC",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "keywords": [],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lsby/ql_ts.git"
+  },
+  "bugs": {
+    "url": "https://github.com/lsby/ql_ts/issues"
+  },
+  "homepage": "https://github.com/lsby/ql_ts#readme",
+  "dependencies": {
+    "@lsby/exec_cmd": "^0.0.11"
+  }
+}
