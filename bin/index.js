@@ -17,8 +17,9 @@ async function main() {
   await exec(`rm -rf ${临时目录}`);
 
   console.log("安装npm依赖:", "npm i");
-  console.log("监视编译:", "F1 -> 运行任务 -> watch:ts");
+  console.log("监视编译:", "F1 -> 运行任务 -> watch:all");
+  console.log("运行CUI程序:", "dev:cmd");
   console.log("运行服务:", "dev:service");
-  console.log("更多命令请看package.json");
+  console.log("运行APP:", "dev:app");
 }
 main();

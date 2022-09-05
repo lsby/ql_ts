@@ -1,6 +1,6 @@
 {
   "name": "@lsby/ql_ts",
-  "version": "0.0.8",
+  "version": "0.0.9",
   "description": "项目模板",
   "bin": {
     "lsby_ql_ts": "bin/index.js"
